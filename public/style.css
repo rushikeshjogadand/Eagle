@@ -66,10 +66,13 @@ h1
     width: 25px;
     margin-left: -15px;
 }
+.v{
+  border: none;
+}
 @media screen and (max-width: 600px) {
     .navbar-brand img {
       width: auto;
-      height: 45px;
+      height: 37px;
       margin-top: 15px;
       margin-left: -12px;
     }
@@ -79,7 +82,7 @@ h1
   
    @media screen and (max-width: 600px) {
     .navbar {
-    height: 57px;
+    height: 56px;
     width: auto;
     }
   } 
@@ -87,7 +90,7 @@ h1
    @media screen and (max-width: 600px) {
     .navbar-nav {
         /*background-image: linear-gradient(to right,#E5EBB2, #BCE29E);  */
-           position: absolute;
+    position: absolute;
     left: 0;
     right: 0;
     margin: auto;
@@ -101,9 +104,10 @@ h1
 
 @media screen and (max-width: 600px) {
     .navbar-brand {
-      font-size: 12px;
-      margin-top: -53px;
+      font-size: 9px;
+      margin-top: -20px;
     }
+    
   }
  
    .green p
