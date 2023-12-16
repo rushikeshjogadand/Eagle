@@ -4,16 +4,24 @@
     margin: 0;
     font-style: normal;
     box-sizing: border-box;
+   
     
 }
 body
 {
     overflow-x: hidden;
-    background-color: aliceblue;
+   background-image:linear-gradient( to right, #ffffff, #f7fff1);
+    
 }
 .navbar
 {
     background-image: linear-gradient(to right,#E5EBB2, #BCE29E);
+    height: 85px;
+    /* align-items: center;
+     display: flex; 
+    align-items: center;
+    flex-wrap: wrap; */
+  
     
 }
 
@@ -32,9 +40,6 @@ h1
 {
     font-family: 'Dancing Script', cursive;
 }
-.mar1{
-  margin-left: 50px;
-}
 
 
 .card-body img
@@ -46,7 +51,7 @@ h1
 }
 .carousel
 {
-    margin-top: 6.5rem;
+    margin-top: 5.3rem;
 }
 
 .footer ul li
@@ -60,81 +65,160 @@ h1
     border: none;
     height: 32px;
     width: 25px;
-    margin-left: -30px;
+    margin: 5px 0 0 -40px;
 }
 
 .navbar-toggler-icon
 {
     height: 35px;
     width: 25px;
-    margin-left: -15px;
+    margin: -25px 0 0 -5px;
 }
-.v{
-  border: none;
+
+.green p
+{
+  font-size: 1.1rem;
 }
-@media screen and (max-width: 600px) {
+
+.address .details i
+{
+  width: 80px;
+    min-width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-image:linear-gradient(93.86deg,#006177 -2.6%,#269089 67.39%,#7ABC82 110.84%);
+    font-size: 33px;
+    color: #ffffff;
+   
+}
+
+.address .details i:hover
+{
+ background-image:linear-gradient(105.55deg,#7ABC82 -6.68%,#269089 43.13%,#085A6C 96.15%);
+}
+
+.aboutimage
+{
+  background-image: url("/Image/slid-5.png");
+  width: 100%;
+  /* max-height: 20vh; */
+  height: 30vh;
+}
+.breadcrumb
+{
+  width: 80%;
+  border-radius: 5px;
+  height: 3rem;
+  border: 1px solid #d5d3d3;
+  margin-top: -1.5rem;
+}
+.breadcrumb-item
+{
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.about-eagle
+{
+  width: 80%;
+  margin:1.5rem 0 0 10rem;
+ }
+.text-start hr
+{
+ margin: 0 0 3rem 0; 
+}
+
+.md-image
+{
+ width: 15.6%;
+ max-width: auto;
+ /* border: 2px solid red; */
+}
+
+.gallery-list li
+{
+  list-style: none;
+}
+
+.gallery-list i
+{
+  display: flex;
+  justify-content: center;
+  margin:-4.6rem 2rem 3.7rem 0;
+  color:#ffb700;
+  visibility: hidden;
+}
+.gallery-list:hover i
+{
+ /* color: #ffb700; */
+ visibility: visible;
+ transition: all .3s ease-in-out;
+}
+
+ @media screen and (max-width: 600px) {
     .navbar-brand img {
       width: auto;
-      height: 37px;
+      height: 45px;
       margin-top: 15px;
-      margin-left: -22px;
-    
+      /* margin-left: -12px; */
     }
   }
 
   
   
-   @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
     .navbar {
-    height: 56px;
+    height: 60px;
     width: auto;
     }
   } 
+  
  
-   @media screen and (max-width: 600px) {
+
+ @media screen and (max-width: 600px) {
+    .navbar-brand {
+      font-size: 1rem;
+      margin-top: -20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .green p {
+      font-size: 14px;
+    }
+  }
+     @media screen and (max-width: 600px) {
     .navbar-nav {
-        /*background-image: linear-gradient(to right,#E5EBB2, #BCE29E);  */
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
     background:linear-gradient(to right,#E5EBB2, #BCE29E);
     height: 35vh;
-    margin-top: -30px;
+    margin-top: -9px;
+    transition: 5s;
     
 
     }
-    .navbar ul li a{
-      margin-left: 20px;
-    }
-   
   } 
+  @media screen and (max-width: 600px) {
+    .navbar-nav .nav-link {
+    margin-left: 20px;  
 
-@media screen and (max-width: 600px) {
-    .navbar-brand {
-      font-size: 13px;
-      margin-top: -20px;
     }
-    #button{
-      margin-left: -10px;
-      margin-top: -29px;
-    }
-    .card{
-      margin-top: 9px;
-    }
-    #row1{
-      margin-top: -26px;
-    }
-   .mar1{
-    margin-top: 0px;
-   }
-    
-  }
+  } 
  
-   .green p
-  {
-    margin-top: 5px;
-      font-size:0.8rem;  
-  } 
+@media screen and (max-width: 600px) {
+ .card{
+  padding: 1rem;  
+  height:97%;
+  width: 100%;
+  }
+} 
 
-  
+ @media screen and (max-width: 600px) {
+  .row{
+    margin-top: 2px;
+  }
+}
