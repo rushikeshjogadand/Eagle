@@ -164,6 +164,15 @@ h1
        margin-right: 12px;
     }
   }
+  .address{
+    margin-top: 5px;
+  }
+  .d1{
+    z-index: 9;
+  }
+  .d11{
+    margin-top: 80px;
+  }
 
   
   
