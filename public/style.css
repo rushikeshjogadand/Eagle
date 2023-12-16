@@ -230,4 +230,8 @@ h1
   .row{
     margin-top: 2px;
   }
+  .about-eagle{
+    width: 100%;
+    margin-left: 10px;
+  }
 }
